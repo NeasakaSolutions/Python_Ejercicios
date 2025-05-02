@@ -1,0 +1,7 @@
+OTRAS FORMAS DE GENERAR LISTAS:
+
+list("hola")                 # ['h', 'o', 'l', 'a'] ← string
+list((1, 2, 3))              # [1, 2, 3] ← tupla
+list({10, 20, 30})           # [10, 20, 30] ← set (sin orden garantizado)
+list({"a": 1, "b": 2})       # ['a', 'b'] ← claves del diccionario
+list(range(5))               # [0, 1, 2, 3, 4] ← range
